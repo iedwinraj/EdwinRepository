@@ -1,0 +1,509 @@
+<html>
+<head>
+<title>TestNG:  TestNgClassTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestNgClassTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>28/7/1</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 09 01:11:18 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>14 seconds (14572 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestcaseSquence.ExceptionTimeoutTest.Testcase()'><b>Testcase</b><br>Test class: TestcaseSquence.ExceptionTimeoutTest</td>
+<td><div><pre>org.testng.TestException: 
+Method ExceptionTimeoutTest.Testcase()[pri:0, instance:TestcaseSquence.ExceptionTimeoutTest@3c09711b] should have thrown an exception of type class java.lang.NumberFormatException
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1459672753", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1459672753'><pre>org.testng.TestException: 
+Method ExceptionTimeoutTest.Testcase()[pri:0, instance:TestcaseSquence.ExceptionTimeoutTest@3c09711b] should have thrown an exception of type class java.lang.NumberFormatException
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1426)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:701)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>TestcaseSquence.ExceptionTimeoutTest@3c09711b</td></tr>
+<tr>
+<td title='TestcaseSquence.ExceptionTimeoutTest.Testcase()'><b>Testcase</b><br>Test class: TestcaseSquence.ExceptionTimeoutTest</td>
+<td><div><pre>org.testng.TestException: 
+Method ExceptionTimeoutTest.Testcase()[pri:0, instance:TestcaseSquence.ExceptionTimeoutTest@3c09711b] should have thrown an exception of type class java.lang.NumberFormatException
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1540011289", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1540011289'><pre>org.testng.TestException: 
+Method ExceptionTimeoutTest.Testcase()[pri:0, instance:TestcaseSquence.ExceptionTimeoutTest@3c09711b] should have thrown an exception of type class java.lang.NumberFormatException
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1426)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:701)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>TestcaseSquence.ExceptionTimeoutTest@3c09711b</td></tr>
+<tr>
+<td title='TestcaseSquence.ExceptionTimeoutTest.Testcase()'><b>Testcase</b><br>Test class: TestcaseSquence.ExceptionTimeoutTest</td>
+<td><div><pre>org.testng.TestException: 
+Method ExceptionTimeoutTest.Testcase()[pri:0, instance:TestcaseSquence.ExceptionTimeoutTest@3c09711b] should have thrown an exception of type class java.lang.NumberFormatException
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1596000437", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1596000437'><pre>org.testng.TestException: 
+Method ExceptionTimeoutTest.Testcase()[pri:0, instance:TestcaseSquence.ExceptionTimeoutTest@3c09711b] should have thrown an exception of type class java.lang.NumberFormatException
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1426)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:701)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>TestcaseSquence.ExceptionTimeoutTest@3c09711b</td></tr>
+<tr>
+<td title='TestcaseSquence.ExceptionTimeoutTest.Testcase()'><b>Testcase</b><br>Test class: TestcaseSquence.ExceptionTimeoutTest</td>
+<td><div><pre>org.testng.TestException: 
+Method ExceptionTimeoutTest.Testcase()[pri:0, instance:TestcaseSquence.ExceptionTimeoutTest@3c09711b] should have thrown an exception of type class java.lang.NumberFormatException
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1061804750", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1061804750'><pre>org.testng.TestException: 
+Method ExceptionTimeoutTest.Testcase()[pri:0, instance:TestcaseSquence.ExceptionTimeoutTest@3c09711b] should have thrown an exception of type class java.lang.NumberFormatException
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1426)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:701)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>TestcaseSquence.ExceptionTimeoutTest@3c09711b</td></tr>
+<tr>
+<td title='TestcaseSquence.ExceptionTimeoutTest.Testcase()'><b>Testcase</b><br>Test class: TestcaseSquence.ExceptionTimeoutTest</td>
+<td><div><pre>org.testng.TestException: 
+Method ExceptionTimeoutTest.Testcase()[pri:0, instance:TestcaseSquence.ExceptionTimeoutTest@3c09711b] should have thrown an exception of type class java.lang.NumberFormatException
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1225439493", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1225439493'><pre>org.testng.TestException: 
+Method ExceptionTimeoutTest.Testcase()[pri:0, instance:TestcaseSquence.ExceptionTimeoutTest@3c09711b] should have thrown an exception of type class java.lang.NumberFormatException
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1426)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:701)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>TestcaseSquence.ExceptionTimeoutTest@3c09711b</td></tr>
+<tr>
+<td title='TestcaseSquence.SkipTestcase.login()'><b>login</b><br>Test class: TestcaseSquence.SkipTestcase</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at TestcaseSquence.SkipTestcase.login(SkipTestcase.java:16)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace389993238", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace389993238'><pre>java.lang.ArithmeticException: / by zero
+	at TestcaseSquence.SkipTestcase.login(SkipTestcase.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>TestcaseSquence.SkipTestcase@48eff760</td></tr>
+<tr>
+<td title='com.parameterization.TestParameters.testCaseOne()'><b>testCaseOne</b><br>Test class: com.parameterization.TestParameters<br>Parameters: Firefox</td>
+<td><div><pre>org.testng.TestException: 
+Method TestParameters.testCaseOne(java.lang.String)[pri:0, instance:com.parameterization.TestParameters@5ae9a829] should have thrown an exception of type class java.lang.NumberFormatException
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace352598575", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace352598575'><pre>org.testng.TestException: 
+Method TestParameters.testCaseOne(java.lang.String)[pri:0, instance:com.parameterization.TestParameters@5ae9a829] should have thrown an exception of type class java.lang.NumberFormatException
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1426)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:701)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.parameterization.TestParameters@5ae9a829</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestcaseSquence.SkipTestcase.Logout()'><b>Logout</b><br>Test class: TestcaseSquence.SkipTestcase</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.SkipTestcase@48eff760</td></tr>
+<tr>
+<td title='TestcaseSquence.NumberFormateException.TEST()'><b>TEST</b><br>Test class: TestcaseSquence.NumberFormateException</td>
+<td><div><pre>java.lang.NumberFormatException: For input string: &quot;100Edwin&quot;
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at TestcaseSquence.NumberFormateException.TEST(NumberFormateException.java:10)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace150138649", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace150138649'><pre>java.lang.NumberFormatException: For input string: &quot;100Edwin&quot;
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at TestcaseSquence.NumberFormateException.TEST(NumberFormateException.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>TestcaseSquence.NumberFormateException@5f375618</td></tr>
+<tr>
+<td title='ItestListenerConcept.class1.f()'><b>f</b><br>Test class: ItestListenerConcept.class1</td>
+<td></td>
+<td>0</td>
+<td>ItestListenerConcept.class1@573f2bb1</td></tr>
+<tr>
+<td title='TestcaseSquence.GoogleTitleTest.googleTileTest()'><b>googleTileTest</b><br>Test class: TestcaseSquence.GoogleTitleTest</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.GoogleTitleTest@6d78f375</td></tr>
+<tr>
+<td title='com.parameterization.TestParameters.testCaseTwo()'><b>testCaseTwo</b><br>Test class: com.parameterization.TestParameters<br>Parameters: testuser, testpassword</td>
+<td></td>
+<td>0</td>
+<td>com.parameterization.TestParameters@5ae9a829</td></tr>
+<tr>
+<td title='TestcaseSquence.InvocationCount.testcase1()'><b>testcase1</b><br>Test class: TestcaseSquence.InvocationCount</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.InvocationCount@6d8a00e3</td></tr>
+<tr>
+<td title='TestcaseSquence.InvocationCount.testcase1()'><b>testcase1</b><br>Test class: TestcaseSquence.InvocationCount</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.InvocationCount@6d8a00e3</td></tr>
+<tr>
+<td title='TestcaseSquence.InvocationCount.testcase1()'><b>testcase1</b><br>Test class: TestcaseSquence.InvocationCount</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.InvocationCount@6d8a00e3</td></tr>
+<tr>
+<td title='TestcaseSquence.InvocationCount.testcase1()'><b>testcase1</b><br>Test class: TestcaseSquence.InvocationCount</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.InvocationCount@6d8a00e3</td></tr>
+<tr>
+<td title='TestcaseSquence.InvocationCount.testcase1()'><b>testcase1</b><br>Test class: TestcaseSquence.InvocationCount</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.InvocationCount@6d8a00e3</td></tr>
+<tr>
+<td title='TestcaseSquence.MyTestcase.testcase1()'><b>testcase1</b><br>Test class: TestcaseSquence.MyTestcase</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.MyTestcase@50c87b21</td></tr>
+<tr>
+<td title='TestcaseSquence.TestcaseDependonMethods.testcase1()'><b>testcase1</b><br>Test class: TestcaseSquence.TestcaseDependonMethods</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestcaseDependonMethods@548b7f67</td></tr>
+<tr>
+<td title='TestcaseSquence.TestcaseGroup.testcase1()'><b>testcase1</b><br>Test class: TestcaseSquence.TestcaseGroup</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestcaseGroup@174d20a</td></tr>
+<tr>
+<td title='TestcaseSquence.TestNGPriority.testcase1()'><b>testcase1</b><br>Test class: TestcaseSquence.TestNGPriority</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestNGPriority@402f32ff</td></tr>
+<tr>
+<td title='TestcaseSquence.TestSquence.testcase1()'><b>testcase1</b><br>Test class: TestcaseSquence.TestSquence</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestSquence@7ac7a4e4</td></tr>
+<tr>
+<td title='TestcaseSquence.MyTestcase.testcase2()'><b>testcase2</b><br>Test class: TestcaseSquence.MyTestcase</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.MyTestcase@50c87b21</td></tr>
+<tr>
+<td title='TestcaseSquence.TestcaseDependonMethods.testcase2()'><b>testcase2</b><br>Test class: TestcaseSquence.TestcaseDependonMethods</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestcaseDependonMethods@548b7f67</td></tr>
+<tr>
+<td title='TestcaseSquence.TestcaseGroup.testcase2()'><b>testcase2</b><br>Test class: TestcaseSquence.TestcaseGroup</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestcaseGroup@174d20a</td></tr>
+<tr>
+<td title='TestcaseSquence.TestNGPriority.testcase2()'><b>testcase2</b><br>Test class: TestcaseSquence.TestNGPriority</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestNGPriority@402f32ff</td></tr>
+<tr>
+<td title='TestcaseSquence.TestSquence.testcase2()'><b>testcase2</b><br>Test class: TestcaseSquence.TestSquence</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestSquence@7ac7a4e4</td></tr>
+<tr>
+<td title='TestcaseSquence.TestcaseDependonMethods.testcase3()'><b>testcase3</b><br>Test class: TestcaseSquence.TestcaseDependonMethods</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestcaseDependonMethods@548b7f67</td></tr>
+<tr>
+<td title='TestcaseSquence.TestcaseGroup.testcase3()'><b>testcase3</b><br>Test class: TestcaseSquence.TestcaseGroup</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestcaseGroup@174d20a</td></tr>
+<tr>
+<td title='TestcaseSquence.TestNGPriority.testcase3()'><b>testcase3</b><br>Test class: TestcaseSquence.TestNGPriority</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestNGPriority@402f32ff</td></tr>
+<tr>
+<td title='TestcaseSquence.TestSquence.testcase3()'><b>testcase3</b><br>Test class: TestcaseSquence.TestSquence</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestSquence@7ac7a4e4</td></tr>
+<tr>
+<td title='TestcaseSquence.TestSquence.testcase4()'><b>testcase4</b><br>Test class: TestcaseSquence.TestSquence</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestSquence@7ac7a4e4</td></tr>
+<tr>
+<td title='TestcaseSquence.TestSquence.testcase5()'><b>testcase5</b><br>Test class: TestcaseSquence.TestSquence</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestSquence@7ac7a4e4</td></tr>
+<tr>
+<td title='TestcaseSquence.TestSquence.testcase6()'><b>testcase6</b><br>Test class: TestcaseSquence.TestSquence</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestSquence@7ac7a4e4</td></tr>
+<tr>
+<td title='TestcaseSquence.TestSquence.testcase7()'><b>testcase7</b><br>Test class: TestcaseSquence.TestSquence</td>
+<td></td>
+<td>0</td>
+<td>TestcaseSquence.TestSquence@7ac7a4e4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestcaseSquence.SkipTestcase.Home()'><b>Home</b><br>Test class: TestcaseSquence.SkipTestcase</td>
+<td><div><pre>java.lang.Throwable: Method SkipTestcase.Home()[pri:0, instance:TestcaseSquence.SkipTestcase@48eff760] depends on not successfully finished methods
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace45023307", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace45023307'><pre>java.lang.Throwable: Method SkipTestcase.Home()[pri:0, instance:TestcaseSquence.SkipTestcase@48eff760] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1063)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+</body>
+</html>

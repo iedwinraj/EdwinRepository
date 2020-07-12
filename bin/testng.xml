@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestNgClassTest">
+	<test name="TestNgClassTest">
+		<classes>
+			<class name="ItestListenerConcept.class1"/>
+			
+			
+			<class name="TestcaseSquence.ExceptionTimeoutTest" />
+			<class name="TestcaseSquence.GoogleTitleTest" />
+			<class name="TestcaseSquence.InvocationCount" />
+			<class name="TestcaseSquence.MyTestcase" />
+			<class name="TestcaseSquence.NumberFormateException" />
+			<class name="TestcaseSquence.SkipTestcase" />
+			<class name="TestcaseSquence.TestcaseDependonMethods" />
+			<class name="TestcaseSquence.TestcaseGroup" />
+			<class name="TestcaseSquence.TestNGPriority" />
+			<class name="TestcaseSquence.TestSquence" />
+
+		
+		<parameter name="browser" value="Firefox" />
+		<parameter name="username" value="testuser" />
+		<parameter name="password" value="testpassword" />
+	
+			<class name="com.parameterization.TestParameters" />
+		</classes>
+
+
+	</test>
+</suite>   

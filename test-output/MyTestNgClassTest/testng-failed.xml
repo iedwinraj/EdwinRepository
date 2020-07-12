@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyTestNgClassTest]">
+  <parameter name="password" value="testpassword"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="username" value="testuser"/>
+  <test name="TestNgClassTest(failed)">
+    <parameter name="password" value="testpassword"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="username" value="testuser"/>
+    <classes>
+      <class name="TestcaseSquence.ExceptionTimeoutTest">
+        <methods>
+          <include name="Testcase"/>
+        </methods>
+      </class> <!-- TestcaseSquence.ExceptionTimeoutTest -->
+      <class name="TestcaseSquence.TestcaseGroup">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestcaseSquence.TestcaseGroup -->
+      <class name="TestcaseSquence.SkipTestcase">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="Home"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- TestcaseSquence.SkipTestcase -->
+      <class name="TestcaseSquence.TestNGPriority">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- TestcaseSquence.TestNGPriority -->
+      <class name="com.parameterization.TestParameters">
+        <methods>
+          <include name="testCaseOne" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.parameterization.TestParameters -->
+      <class name="TestcaseSquence.TestSquence">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- TestcaseSquence.TestSquence -->
+      <class name="TestcaseSquence.GoogleTitleTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- TestcaseSquence.GoogleTitleTest -->
+      <class name="TestcaseSquence.MyTestcase">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestcaseSquence.MyTestcase -->
+    </classes>
+  </test> <!-- TestNgClassTest(failed) -->
+</suite> <!-- Failed suite [MyTestNgClassTest] -->
