@@ -18,4 +18,10 @@ public class TestParameters
 		System.out.println("Parameter for User Name passed as :- " + username);
 		System.out.println("Parameter for Password passed as :- " + password);
 	}
+	@Test
+	public void testCaseThree(String username, String password) {
+		System.out.println("Parameter for User Name passed as :- " + username);
+		System.out.println("Parameter for Password passed as :- " + password);
+	}
+	
 }
